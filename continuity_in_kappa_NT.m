@@ -8,7 +8,8 @@
 # we use Newton's method to compute the tip.
 
 # -save computations in file 'SLE.mat' and 'kappa.mat'
-
+# we only compute one-half of the curve.
+# we don't compute the full hull
 
 # (view_SLE.m)
 # this file is to view curves
