@@ -2,10 +2,9 @@
 # the driving function is a complex (kappa) multiple of Brownian motion
 # not (sqrt(kappa)) * Brownian_motion
 
-# the body of the file inherits from continuity_in_kappa.m 
-# in Newton's method folder
 
-# we use Newton's method to compute the tip.
+# we use Newton's method + backward Loewner flow to compute the tip.
+# it is a bit tricky to choose the initial point z_0 and DT.
 
 # -save computations in file 'SLE.mat' and 'kappa.mat'
 # we only compute one-half of the curve.
