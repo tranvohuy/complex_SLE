@@ -6,3 +6,6 @@ Input: a complex number * a sample of Brownian motion.
 Output: a simulated curve.
 
 We use Newton method and Loewner backward equation to find the position of the curve at each time t.
+
+
+The Brownian motion was sampled beforehand. 
